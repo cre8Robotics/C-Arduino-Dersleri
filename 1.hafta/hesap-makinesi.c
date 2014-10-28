@@ -29,6 +29,11 @@ int main (){
 		case 4:
 			c = a / b;
 			break;
+			
+		//belirlenen caselerden biri seçilmediği durumda default case çalışır.
+		default:
+			printf("Yanlış bir seçim yaptınız.");
+			break;
 	}
 	printf("sonuc : %f ",c);
 		
